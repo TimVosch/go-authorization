@@ -12,13 +12,13 @@ database is populated with some data. I use httpie to perform easy http requests
 go run main.go --migrate
 ```
 
-**Can't access user information without being authenticated and authorized**
+**Can't access user information without being authenticated and authorized**  
 ![](doc/2021-12-30-22-57-38.png)
 
-**Login will create a token**
+**Login will create a token**  
 ![](doc/2021-12-30-22-58-25.png)
 
-**Use the token in the authorization header and access is granted**
+**Use the token in the authorization header and access is granted**  
 ![](doc/2021-12-30-22-59-17.png)
 
 Try accessing `/users/2`, what if you login as `bob`(`password`)?
